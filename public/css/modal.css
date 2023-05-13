@@ -1,0 +1,289 @@
+/* Modal window , popup */
+.container-modal {
+    background-color: rgba(0, 0, 0, 0.5);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.5s ease;
+    z-index: 100;
+}
+
+.container-modal.show {
+    opacity: 1;
+    pointer-events: auto;
+    transition: opacity 0.5s ease;
+}
+
+.inner-modal {
+    max-width: 540px;
+    width: 100%;
+
+    /*min-height: 50%;*/
+
+    background-color: #fff;
+    border-radius: 12px;
+
+    padding: 50px 65px;
+    box-sizing: border-box;
+
+    position: relative;
+    filter: drop-shadow(0px 0px 20px rgba(0, 76, 135, 0.1));
+}
+
+.inner-modal h2.modal-title {
+    font-family: Raleway-600;
+    font-size: 24px;
+    line-height: 1.2;
+    text-align: center;
+    color: #202020;
+}
+
+form.modal-form {
+    margin: 30px 0;
+}
+
+.form-input-block {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.button-login {
+    width: 100%;
+    height: 60px;
+    margin-top: 25px;
+}
+
+.button-login p {
+    font-family: Raleway-600;
+    font-size: 18px;
+    line-height: 1.2;
+
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.btn-register {
+    width: 100%;
+}
+
+.btn-register p {
+    font-family: Raleway-600;
+    font-size: 18px;
+    line-height: 1.2;
+
+    color: #FFFFFF;
+}
+
+
+.modal-desc-block {
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+p.desc-info {
+    font-family: Raleway-400;
+    font-size: 18px;
+    line-height: 1.2;
+
+    color: #606060;
+    margin-bottom: 5px;
+}
+.default-form-confirm {
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.default-form-confirm a {
+    font-family: Raleway-400;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 1.2;
+    text-decoration-line: underline;
+    color: #11A50E;
+}
+.default-form-confirm a:hover, default-form-confirm a:focus {
+    text-decoration-line: underline;
+    color: #11A50E;
+}
+
+.default-form-confirm input[type=checkbox] {
+    margin-right: 10px;
+    width: 25px;
+    min-width: 25px;
+    height: 25px;
+    min-height: 25px;
+    cursor: pointer;
+    background: #F9F9F9;
+    box-sizing: border-box;
+    border-radius: 6px;
+    border: 1px solid #11A50E;
+}
+.default-form-confirm input[type=checkbox]:checked {
+    -webkit-appearance: none;
+    background: #11A50E;
+    color: #FFFFFF;
+    border: none;
+}
+.default-form-confirm input[type=checkbox]:checked:after {
+    -webkit-appearance: none;
+    content: " ✔";
+    padding-top: 2px;
+    font-size: 16px;
+    color: #ffffff;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+a.desc-info-link {
+    font-family: Raleway-400;
+    font-size: 18px;
+    line-height: 1.2;
+
+    text-align: center;
+    text-decoration-line: underline;
+    cursor: pointer;
+    color: #11A50E;
+}
+
+.btn-register {
+    width: 100%;
+    height: 60px;
+    margin-top: 30px;
+}
+
+.modal-hr {
+    background: #BABABA;
+    position: relative;
+    margin-left: -65px;
+    margin-right: -65px;
+}
+
+.modal-close {
+    display: inline-block;
+    position: absolute;
+    width: 29px;
+    height: 29px;
+    background: none;
+    top: 20px;
+    right: -45px;
+    cursor: pointer;
+}
+
+.modal-close:focus {
+    color: #FFFFFF;
+    background: #fff;
+}
+
+.modal-close svg {
+    width: 100%;
+    height: 100%;
+}
+
+svg.close-icon {
+    stroke: #fff;
+}
+
+
+/* Чекбокс */
+.custom-checkbox {
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
+}
+
+.custom-checkbox + label {
+    display: inline-flex;
+    align-items: center;
+    user-select: none;
+}
+
+.custom-checkbox + label::before {
+    content: '';
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    flex-shrink: 0;
+    flex-grow: 0;
+    border: 1px solid #11A50E;
+    border-radius: 0.25em;
+    margin-right: 0.5em;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 50% 50%;
+}
+
+.custom-checkbox:checked + label::before {
+    border-color: #11A50E;
+    background-color: #11A50E;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3e%3cpath fill='%23fff' d='M6.564.75l-3.59 3.612-1.538-1.55L0 4.26 2.974 7.25 8 2.193z'/%3e%3c/svg%3e");
+}
+
+/* стили при наведении курсора на checkbox */
+.custom-checkbox:not(:disabled):not(:checked) + label:hover::before {
+    border-color: #11A50E;
+}
+
+/* стили для активного состояния чекбокса (при нажатии на него) */
+.custom-checkbox:not(:disabled):active + label::before {
+    background-color: #11A50E;
+    border-color: #11A50E;
+}
+
+/* стили для чекбокса, находящегося в фокусе */
+.custom-checkbox:focus + label::before {
+    /*box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);*/
+}
+
+/* стили для чекбокса, находящегося в фокусе и не находящегося в состоянии checked */
+.custom-checkbox:focus:not(:checked) + label::before {
+    border-color: #11A50E;
+}
+
+/* стили для чекбокса, находящегося в состоянии disabled */
+.custom-checkbox:disabled + label::before {
+    background-color: #11A50E;
+}
+
+.desc-checked {
+    font-family: Raleway-400;
+    font-size: 18px;
+    line-height: 1.2;
+    text-decoration-line: underline;
+
+    color: #11A50E;
+}
+
+.btn-editUser, .btn-editpassword {
+    width: 100%;
+}
+
+@media (max-width: 575.98px) {
+    .inner-modal {
+        padding: 40px 25px;
+    }
+
+    .modal-close {
+        right: 20px;
+    }
+
+    svg.close-icon {
+        stroke: black;
+    }
+}

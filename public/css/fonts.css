@@ -1,0 +1,59 @@
+@font-face {
+    src: url("/fonts/Raleway-Regular.ttf") format('opentype');;
+    font-family: Raleway-400;
+    font-style: normal;
+}
+@font-face {
+    src: url("/fonts/PlayfairDisplay-Regular.ttf") format('opentype');;
+    font-family: PlayfairDisplay-400;
+    font-style: normal;
+}
+
+@font-face {
+    src: url("/fonts/Raleway-Bold.ttf") format('opentype');;
+    font-family: Raleway-700;
+    font-style: normal;
+}
+
+@font-face {
+    src: url("/fonts/Raleway-Medium.ttf") format('opentype');;
+    font-family: Raleway-500;
+    font-style: normal;
+}
+
+@font-face {
+    src: url("/fonts/Raleway-ExtraBold.otf") format('opentype');;
+    font-family: Raleway-800;
+    font-style: normal;
+}
+
+@font-face {
+    src: url("/fonts/Raleway-Light.otf") format('opentype');;
+    font-family: Raleway-300;
+    font-style: normal;
+}
+
+@font-face {
+    src: url("/fonts/Raleway-Semibold.ttf") format('opentype');;
+    /*src: url("/fonts/Raleway-Semibold.otf");*/
+    font-family: Raleway-600;
+    font-style: normal;
+}
+
+@font-face {
+    src: url("/fonts/Raleway-Black.otf") format('opentype');;
+    font-family: Raleway-900;
+    font-style: normal;
+}
+@font-face {
+    src: url("/fonts/Marta_Regular.otf") format('opentype');;
+    font-family: Marta;
+    font-style: normal;
+}
+h1, h2, h3, h4, h5, p {
+    margin: 0;
+}
+
+body {
+    font-family: Raleway-400;
+}

@@ -1,0 +1,811 @@
+/*@media (max-width: 1399px ) {*/
+/*    .header-logo {*/
+/*        margin-right: 30px;*/
+/*    }*/
+
+/*    a.header-menu-link {*/
+/*        font-size: 16px;*/
+/*    }*/
+
+/*    .header-menu-lists li {*/
+/*        margin-right: 15px;*/
+/*    }*/
+
+/*    .button-auth {*/
+/*        width: 150px;*/
+/*        height: 40px;*/
+/*        font-size: 16px;*/
+/*    }*/
+
+
+/*    .banner-img {*/
+/*        height: 880px;*/
+/*    }*/
+
+/*    !*.swiper-wrapper {*!*/
+/*    !*    margin-left: 10px;*!*/
+/*    !*}*!*/
+/*    .news-title, .questions-title {*/
+/*        font-size: 34px;*/
+/*    }*/
+
+/*    .accordion {*/
+/*        font-size: 22px;*/
+/*    }*/
+
+/*    a.footer-logo {*/
+/*        max-width: 190px;*/
+/*    }*/
+
+/*    .course-card-group {*/
+/*        margin-top: -195px;*/
+/*    }*/
+
+/*    .btn-logout-user {*/
+/*        width: 100px;*/
+/*    }*/
+
+/*    a.header-menu-link {*/
+/*        font-size: 15px;*/
+/*    }*/
+
+/*    .button-auth {*/
+/*        font-size: 15px;*/
+/*    }*/
+
+/*    .header-menu-lists li {*/
+/*        margin-right: 12px;*/
+/*    }*/
+
+/*}*/
+
+/*@media (max-width: 1199px ) {*/
+/*    .header-logo {*/
+/*        width: 100px;*/
+/*        margin-right: 20px;*/
+/*    }*/
+
+/*    a.header-menu-link {*/
+/*        font-size: 14px;*/
+/*    }*/
+
+/*    .button-auth {*/
+/*        width: 140px;*/
+/*    }*/
+
+/*    .banner-img {*/
+/*        height: 720px;*/
+/*    }*/
+
+/*    .row.course-row {*/
+/*        transform: translateX(65px);*/
+/*        bottom: -30px;*/
+/*    }*/
+
+/*    .course-card-img {*/
+/*        width: 100%;*/
+/*        height: auto;*/
+/*        margin-bottom: 20px;*/
+/*    }*/
+
+/*    .course-card-title {*/
+/*        font-size: 27px;*/
+/*    }*/
+
+/*    .card-new-price, .card-old-price {*/
+/*        font-size: 22px;*/
+/*    }*/
+
+/*    section.section-index {*/
+/*        margin-bottom: 160px;*/
+/*    }*/
+
+/*    .news-title, .questions-title {*/
+/*        font-size: 31px;*/
+/*    }*/
+
+/*    !*.swiper-wrapper {*!*/
+/*    !*    width: 97%;*!*/
+/*    !*    margin-left: 5px;*!*/
+/*    !*}*!*/
+/*    .a.footer-logo {*/
+/*        max-width: 160px;*/
+/*    }*/
+
+/*    h3.contacts-block-title, h3.quick-block-title {*/
+/*        font-size: 16px;*/
+/*    }*/
+
+/*    ul.quick-menu li a {*/
+/*        font-size: 16px;*/
+/*    }*/
+
+/*    .accordion {*/
+/*        font-size: 21px;*/
+/*    }*/
+
+/*    .course-card-body {*/
+/*        padding: 0;*/
+/*    }*/
+
+/*    a.button-open {*/
+/*        font-size: 16px;*/
+/*    }*/
+
+/*    !*.swiper-wrapper {*!*/
+/*    !*    width: 78%;*!*/
+/*    !*    margin-left: -57px;*!*/
+/*    !*    margin-left: 111px;*!*/
+/*    !*}*!*/
+/*    .casess-create-form {*/
+/*        width: 70%;*/
+/*    }*/
+
+/*    .table {*/
+/*        font-size: 15px;*/
+/*    }*/
+
+/*    .table thead th {*/
+/*        padding: 10px 21px;*/
+/*    }*/
+
+/*    .table tbody td {*/
+/*        padding: 10px 21px;*/
+/*    }*/
+
+/*    .btn-logout-user {*/
+/*        width: 100px;*/
+/*    }*/
+
+/*    a.header-menu-link {*/
+/*        font-size: 15px;*/
+/*    }*/
+
+/*    .button-auth {*/
+/*        font-size: 15px;*/
+/*    }*/
+
+/*    .header-logo {*/
+/*        width: 80px;*/
+/*        margin-right: 10px;*/
+/*    }*/
+
+/*    .header-menu-lists li {*/
+/*        margin-right: 10px;*/
+/*    }*/
+
+/*    a.header-menu-link {*/
+/*        font-size: 13px;*/
+/*    }*/
+
+/*    .button-auth {*/
+/*        font-size: 14px;*/
+/*    }*/
+
+/*    .btn-auth-user {*/
+/*        margin-right: 5px;*/
+/*    }*/
+
+/*    .btn-logout-user {*/
+/*        width: 80px;*/
+/*    }*/
+
+/*    .table-item {*/
+/*        font-size: 16px;*/
+/*    }*/
+/*}*/
+
+/*@media (max-width: 991px ) {*/
+/*    .course-card {*/
+/*        flex-basis: 47%;*/
+/*    }*/
+
+/*    .burder-btn {*/
+/*        display: block;*/
+/*        z-index: 12;*/
+/*    }*/
+
+/*    .header-logo {*/
+/*        width: 120px;*/
+/*    }*/
+
+/*    .mobile-menu {*/
+/*        display: none;*/
+/*    }*/
+
+/*    .auth.footer-auth {*/
+/*        display: block;*/
+/*    }*/
+
+/*    .banner-img {*/
+/*        height: 545px;*/
+/*    }*/
+
+/*    .course-card-title {*/
+/*        font-size: 24px;*/
+/*    }*/
+
+/*    .card-new-price, .card-old-price {*/
+/*        font-size: 20px;*/
+/*    }*/
+
+/*    .course-card-img {*/
+/*        width: 100%;*/
+/*        height: auto;*/
+/*        margin-bottom: 10px;*/
+/*    }*/
+
+/*    .row.course-row {*/
+/*        transform: translateX(26px);*/
+/*        bottom: 160px;*/
+/*    }*/
+
+/*    section.section-index {*/
+/*        margin-bottom: 0;*/
+/*    }*/
+
+/*    .swiper {*/
+/*        height: auto;*/
+/*    }*/
+
+/*    !*.swiper-wrapper {*!*/
+/*    !*    width: 50%;*!*/
+/*    !*    margin-left: -152px;*!*/
+/*    !*}*!*/
+/*    .accordion {*/
+/*        font-size: 20px;*/
+/*    }*/
+
+/*    .panel > div {*/
+/*        font-size: 16px;*/
+/*    }*/
+
+/*    .questions-block {*/
+/*        background-position: center right 50px;*/
+/*    }*/
+
+/*    footer.footer {*/
+/*        min-height: auto;*/
+/*    }*/
+
+/*    .mobile-menu {*/
+/*        display: flex;*/
+/*        flex-direction: column;*/
+/*        background: #000;*/
+/*        position: absolute;*/
+/*        top: -717%;*/
+/*        z-index: 10;*/
+/*        left: 0;*/
+/*        padding: 130px 0 60px;*/
+/*        transition: all .4s ease;*/
+/*    }*/
+
+/*    .mobile-menu.active {*/
+/*        top: 0%;*/
+/*        transition: all .5s ease;*/
+/*    }*/
+
+/*    .header-menu-lists {*/
+/*        flex-direction: column;*/
+/*    }*/
+
+/*    .auth {*/
+/*        margin: 40px auto 0;*/
+/*    }*/
+
+/*    .header-menu-lists li {*/
+/*        margin: 0;*/
+/*        margin-bottom: 20px;*/
+/*    }*/
+
+/*    a.header-menu-link {*/
+/*        font-size: 24px;*/
+/*        line-height: 29px;*/
+/*    }*/
+
+/*    body.active {*/
+/*        overflow: hidden;*/
+/*    }*/
+
+/*    header.header {*/
+/*        z-index: 9;*/
+/*    }*/
+
+/*    .overflow {*/
+/*        display: none;*/
+/*        position: absolute;*/
+/*        top: 0;*/
+/*        bottom: 0;*/
+/*        right: 0;*/
+/*        left: 0;*/
+/*        background: rgba(0, 0, 0, .5);*/
+/*        z-index: 8;*/
+/*    }*/
+
+/*    .overflow.active {*/
+/*        display: block;*/
+/*    }*/
+
+/*    .h3.news-slide-title {*/
+/*        font-size: 22px;*/
+/*    }*/
+
+/*    p.news-description {*/
+/*        font-size: 16px;*/
+/*    }*/
+
+/*    section.section-index {*/
+/*        min-height: 890px;*/
+/*    }*/
+
+/*    .course-card-group {*/
+/*        align-items: center;*/
+/*    }*/
+
+/*    .course-card {*/
+/*        width: 100%;*/
+/*    }*/
+
+/*    .section.section-index {*/
+/*        margin-bottom: 90px;*/
+/*    }*/
+
+/*    h3.news-slide-title {*/
+/*        font-size: 20px;*/
+/*        line-height: 24px;*/
+/*        margin-bottom: 5px;*/
+/*    }*/
+
+/*    .news-image {*/
+/*        margin-right: 15px;*/
+
+/*    }*/
+
+/*    .news-block p {*/
+/*        font-size: 14px;*/
+/*        margin-bottom: 5px;*/
+/*    }*/
+
+/*    .casess-create-form {*/
+/*        width: 100%;*/
+/*    }*/
+
+
+/*    .table {*/
+/*        font-size: 13px;*/
+/*    }*/
+
+/*    .button-auth {*/
+/*        font-size: 16px;*/
+/*    }*/
+
+/*    .table-item {*/
+/*        font-size: 15px;*/
+/*    }*/
+
+/*    .item-sort {*/
+/*        width: 20px;*/
+/*        height: 20px;*/
+/*        cursor: pointer;*/
+/*    }*/
+
+/*    .table-container-2 {*/
+/*        width: 150%;*/
+/*    }*/
+/*}*/
+
+/*@media (max-width: 767px ) {*/
+
+/*    .news-slide {*/
+/*        width: 100%;*/
+/*        flex-direction: column;*/
+/*    }*/
+
+/*    .news-image {*/
+/*        max-width: 100%;*/
+/*        margin-right: 0;*/
+/*        margin-bottom: 10px;*/
+/*    }*/
+
+/*    .news-title, .questions-title {*/
+/*        font-size: 29px;*/
+/*    }*/
+
+/*    .news-block {*/
+/*        flex-wrap: wrap;*/
+/*        height: auto;*/
+/*    }*/
+
+/*    .banner-img {*/
+/*        height: 475px;*/
+/*    }*/
+
+/*    .row.course-row {*/
+/*        transform: translateX(22px);*/
+/*        bottom: -370px;*/
+/*    }*/
+
+/*    section.section-index {*/
+/*        margin-bottom: 450px;*/
+/*    }*/
+
+/*    .news-title, .questions-title {*/
+/*        font-size: 25px;*/
+/*    }*/
+
+/*    !*.swiper-wrapper {*!*/
+/*    !*    width: 50%;*!*/
+/*    !*    margin-left: -55px;*!*/
+/*    !*}*!*/
+/*    .accordion {*/
+/*        padding: 15px 1px;*/
+/*    }*/
+
+/*    .panel > div {*/
+/*        padding: 1px 1px 16px;*/
+/*    }*/
+
+/*    .course-card-group {*/
+/*        margin-top: -115px;*/
+/*        flex-direction: column;*/
+/*    }*/
+
+/*    section.section-index {*/
+/*        margin-bottom: 112px;*/
+/*    }*/
+
+/*    .course-card {*/
+/*        margin-bottom: 20px;*/
+/*    }*/
+
+/*    .header-logo {*/
+/*        z-index: 11;*/
+/*    }*/
+
+/*    .auth.footer-auth button.btn-standart {*/
+/*        width: 100%;*/
+/*    }*/
+
+
+/*    !*.swiper-wrapper {*!*/
+/*    !*    width: 60%;*!*/
+/*    !*    margin-left: -55px;*!*/
+/*    !*}*!*/
+/*    svg.question-arrow-icon {*/
+/*        width: 18px;*/
+/*        height: 18px;*/
+/*    }*/
+
+/*    .news-date {*/
+/*        margin-bottom: 5px;*/
+/*    }*/
+
+/*    h3.news-slide-title {*/
+/*        font-size: 18px;*/
+/*        line-height: 22px;*/
+/*    }*/
+
+/*    .btn-watched-success span {*/
+/*        font-size: 18px;*/
+/*        line-height: 22px;*/
+/*    }*/
+
+/*    svg.success-icon {*/
+/*        width: 20px;*/
+/*        height: 20px;*/
+/*    }*/
+
+/*    .course-info-header {*/
+/*        flex-direction: column;*/
+/*    }*/
+
+/*    .course-info-img {*/
+/*        max-width: 100%;*/
+/*        margin-right: 0;*/
+/*        height: auto;*/
+/*    }*/
+
+/*    .course-info-footer {*/
+/*        flex-wrap: wrap;*/
+/*    }*/
+
+/*    .course-complated {*/
+/*        width: 100%;*/
+/*        margin-right: 0;*/
+/*        margin-bottom: 10px;*/
+/*    }*/
+
+/*    .casess-download {*/
+/*        width: 45%;*/
+/*    }*/
+
+/*    .item-info span {*/
+/*        font-size: 16px;*/
+/*        line-height: 20px;*/
+/*    }*/
+
+/*    .table {*/
+/*        width: 150%;*/
+/*    }*/
+
+/*    .page-link-title {*/
+/*        font-size: 28px;*/
+/*        line-height: 38px;*/
+/*    }*/
+
+/*    .table-container-2 {*/
+/*        width: 200%;*/
+/*    }*/
+
+
+/*}*/
+
+/*@media (max-width: 576px ) {*/
+/*    .casess-download {*/
+/*        width: 100%;*/
+/*    }*/
+
+/*    .item-info-sm-work {*/
+/*        font-size: 14px;*/
+/*        line-height: 17px;*/
+/*    }*/
+
+/*    .btn-watched-success {*/
+/*        height: 60px;*/
+/*    }*/
+
+/*    .btn-download {*/
+/*        width: 100%;*/
+/*    }*/
+
+/*    .btn-comment {*/
+/*        width: 100%;*/
+/*    }*/
+
+/*    .banner-img {*/
+/*        height: 380px;*/
+/*    }*/
+
+/*    .course-card-group {*/
+/*        margin-top: -85px;*/
+/*    }*/
+
+/*    .course-card-new {*/
+/*        width: 80px;*/
+/*        height: 30px;*/
+/*        font-size: 14px;*/
+/*    }*/
+
+/*    .card-new-price, .card-old-price {*/
+/*        font-size: 18px;*/
+/*    }*/
+
+/*    a.button-open {*/
+/*        height: 50px;*/
+/*        font-size: 18px;*/
+/*    }*/
+
+/*    .button-auth {*/
+/*        width: 160px;*/
+/*        height: 50px;*/
+/*    }*/
+
+/*    .news-title, .questions-title {*/
+/*        font-size: 24px;*/
+/*    }*/
+
+/*    .accordion {*/
+/*        font-size: 16px;*/
+/*        line-height: 19px;*/
+/*        padding: 10px 1px;*/
+/*    }*/
+
+/*    .panel > div {*/
+/*        font-size: 14px;*/
+/*        line-height: 16px;*/
+/*    }*/
+
+
+/*    .inner-modal {*/
+/*        padding: 20px 25px 40px;*/
+/*        margin: 0 10px;*/
+/*    }*/
+
+/*    .modal-hr {*/
+/*        margin-left: -25px;*/
+/*        margin-right: -25px;*/
+/*    }*/
+
+/*    .modal-close {*/
+/*        right: 26px;*/
+/*        top: 28px;*/
+/*        width: 20px;*/
+/*        height: 20px;*/
+/*        z-index: 5;*/
+/*    }*/
+
+/*    svg.close-icon {*/
+/*        stroke: #000;*/
+/*    }*/
+
+/*    .inner-modal h2.modal-title {*/
+/*        text-align: left;*/
+/*    }*/
+
+/*    .page-link-title {*/
+/*        font-size: 20px;*/
+/*        line-height: 22px;*/
+/*    }*/
+
+/*    h2.master-class-title {*/
+/*        font-size: 18px;*/
+/*        line-height: 22px;*/
+/*    }*/
+
+/*    .master-class-new p {*/
+/*        font-size: 14px;*/
+/*        line-height: 17px;*/
+/*    }*/
+
+/*    .master-class-new {*/
+/*        width: 80px;*/
+/*        height: 30px;*/
+/*    }*/
+
+/*    h3.master-class-card-title {*/
+/*        font-size: 20px;*/
+/*        line-height: 25px;*/
+/*    }*/
+
+/*    p.master-class-card-description, .master-class-body-info p {*/
+/*        font-size: 14px;*/
+/*        line-height: 17px;*/
+/*    }*/
+
+/*    h3.course-info-title {*/
+/*        font-size: 24px;*/
+/*        line-height: 29px;*/
+/*    }*/
+
+/*    .course-info-header {*/
+/*        flex-direction: column;*/
+/*    }*/
+
+/*    .course-info-img {*/
+/*        max-width: 100%;*/
+/*        margin-right: 0;*/
+/*        height: auto;*/
+/*    }*/
+
+/*    .course-info-footer {*/
+/*        flex-wrap: wrap;*/
+/*    }*/
+
+/*    .course-complated {*/
+/*        width: 100%;*/
+/*        margin-right: 0;*/
+/*        margin-bottom: 10px;*/
+/*    }*/
+
+/*    .course-info-body-header h3 {*/
+/*        font-size: 14px;*/
+/*        line-height: 17px;*/
+/*    }*/
+
+/*    .course-info-body-header p {*/
+/*        font-size: 14px;*/
+/*        line-height: 17px;*/
+/*    }*/
+
+/*    span.page-link-dot {*/
+/*        margin: auto 0;*/
+/*    }*/
+
+/*    .page-link-title {*/
+/*        margin-top: 10px;*/
+/*    }*/
+
+/*    .page-link {*/
+/*        font-size: 13px;*/
+/*        line-height: 15px;*/
+/*    }*/
+
+/*    h3.title {*/
+/*        font-size: 19px;*/
+/*        line-height: 22px;*/
+/*    }*/
+
+/*    .accordion-header {*/
+/*        flex-wrap: wrap;*/
+/*    }*/
+
+/*    .module-heading-numer {*/
+/*        width: 79px;*/
+/*        height: 30px;*/
+/*        order: 0;*/
+/*    }*/
+
+/*    .module-heading-title {*/
+/*        order: 2;*/
+/*        margin-top: 12px;*/
+/*        flex-basis: 100%;*/
+/*    }*/
+
+/*    .icon.arrow-down-red-icon {*/
+/*        order: 1;*/
+/*    }*/
+
+/*    .module-heading-title h3 {*/
+/*        font-size: 15px;*/
+/*        line-height: 20px;*/
+/*    }*/
+
+/*    .module-heading-numer p {*/
+/*        font-size: 12px;*/
+/*        line-height: 15px;*/
+/*    }*/
+
+/*    .accordion-panel > div {*/
+/*        padding: 0;*/
+/*        padding-top: 20px;*/
+/*        padding-bottom: 15px;*/
+/*    }*/
+
+/*    a.module-link {*/
+/*        font-size: 14px;*/
+/*        line-height: 18px*/
+/*    }*/
+
+/*    p.description, .lesson-description p, .lesson-task-header p {*/
+/*        font-size: 15px;*/
+/*        line-height: 130%;*/
+/*    }*/
+
+/*    h4.title {*/
+/*        font-size: 18px;*/
+/*        line-height: 17px;*/
+/*    }*/
+
+/*    !*.swiper-wrapper {*!*/
+/*    !*    width: 90%;*!*/
+/*    !*    margin-left: 1px;*!*/
+/*    !*}*!*/
+/*    .question-header {*/
+/*        padding: 15px;*/
+/*    }*/
+
+/*    .question-header-title h3 {*/
+/*        font-size: 15px;*/
+/*        line-height: 130%;*/
+/*    }*/
+
+/*    .question-accordion-panel > div {*/
+/*        font-size: 15px;*/
+/*        line-height: 130%;*/
+/*        padding: 10px 15px 15px 15px;*/
+/*    }*/
+
+/*    .btn-score {*/
+/*        width: 7%;*/
+/*    }*/
+
+/*    .input-file-casess {*/
+/*        margin-top: 15px;*/
+/*        width: 100%;*/
+/*    }*/
+
+/*    .button-send {*/
+/*        width: 100%;*/
+/*    }*/
+
+/*    .profile-info {*/
+/*        padding: 15px;*/
+/*    }*/
+
+/*    .table {*/
+/*        width: 250%;*/
+/*    }*/
+/*    .table-container-2 {*/
+/*        width: 250%;*/
+/*    }*/
+/*}*/

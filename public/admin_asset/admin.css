@@ -1,0 +1,178 @@
+.add_product_form input[type=text],.add_product_form input[type=email], .add_product_form select, .add_product_form textarea {
+  width: 100%;
+  background: #F7F8FD;
+  border: 1px solid #E7E7E7;
+  border-radius: 4px;
+  padding-left: 20px;
+  font-size: 16px;
+  color: #000000;
+  margin-bottom: 20px;
+  /*margin-top: 10px;*/
+}
+.add_product_form input[type=file] {
+  width: 100%;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
+.add_product_form input, .add_product_form select {
+  height: 45px;
+}
+.add_product_form input[type=checkbox] {
+  width: 30px;
+  border-radius: 2px;
+  display: block;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+.add_product_form textarea {
+  padding: 20px;
+}
+.add_product_form select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  padding-left: 20px;
+  background: url(/assets/images/select_arrow.svg) no-repeat 98% 45%;
+  background-color: #F7F8FD;
+}
+.add_product_form select::-ms-expand {
+  display: none;
+}
+.add_product_form select:focus {
+  outline: none;
+}
+.add_product_form label {
+  font-size: 16px;
+  color: #303030;
+}
+.add_product_form .authors_input {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.add_product_form .authors_input input {
+  width: 80%;
+  margin: 0;
+}
+.add_product_form .authors_input button {
+  width: 18%;
+  height: 45px;
+  background: #931818;
+  border: 1px solid #E7E7E7;
+  border-radius: 4px;
+  color: #ffffff;
+}
+.add_product_form .custom_file {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  width: 100%;
+  height: 200px;
+  background: #F7F8FD;
+  border: 1px dashed #931818;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.add_product_form .custom_file p {
+  font-size: 18px;
+  color: #949497;
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+.add_product_form .custom_file h1 {
+  font-family: PlumbKaz-400;
+  font-size: 18px;
+  color: #931818;
+}
+.add_product_form .custom_file h1 span {
+  margin-right: 10px;
+}
+.add_product_form .custom_file:hover {
+  cursor: pointer;
+}
+.add_product_form #file_input_book {
+  display: none;
+}
+.add_product_form .wrap_btn button {
+  width: 330px;
+  height: 60px;
+  font-family: PlumbKaz-700;
+  font-size: 18px;
+}
+
+.old_file {
+  margin-bottom: 10px;
+}
+.old_file span {
+  font-family: PlumbKaz-700;
+  font-size: 20px;
+}
+
+#output {
+  display: none;
+  width: 273px;
+  height: 413px;
+  margin-bottom: 10px;
+}
+
+#old_image {
+  margin-bottom: 10px;
+}
+
+.authors_wrap {
+  width: 100%;
+  margin-top: 10px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+    flex-wrap: wrap;
+}
+.authors_wrap .one_author {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 7px;
+  border-radius: 4px;
+    margin-bottom: 7px;
+  color: #ffffff;
+  background-color: #14bf14;
+  margin-right: 10px;
+}
+.authors_wrap .one_author p {
+  margin-right: 5px;
+  margin-bottom: 0;
+}
+.authors_wrap .one_author img {
+  height: 15px;
+  width: auto;
+}
+.authors_wrap .one_author button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: transparent;
+  border: none;
+  padding: 0;
+}
+
+.slides_table img {
+  max-width: 150px;
+  height: auto;
+}
+
+.form_statistic {
+  padding-top: 20px;
+  padding-left: 20px;
+}
+
+.my_books_table tr td:last-child button {
+  height: 100%;
+  background: transparent;
+  border: none;
+  width: 100%;
+}
